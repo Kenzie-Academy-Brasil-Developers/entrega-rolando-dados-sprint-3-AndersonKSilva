@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rolando dados</title>
 </head>
 <body>
     <h1>Rolando dados</h1>
+
+    <div class="buttons">
+        <button class="btn-randon button1">Dado 1</button>
+        <button class="btn-randon button2">Dado 2</button>
+    </div>
+
+
+    <div class="resultados">
+        <p id="pdado1">0</p>
+        <p id="pdado2">0</p>
+    </div>
+
+    <div class="princial_grafico">
+        <div>
+            <div class="container_dados"></div>
+            <div class="rolar_ambos"></div>
+            <button class="rolBoth">Rolar os dois dados</button>
+            <div class="resultados2"></div>
+        </div>
+        
+        <div class="grafico">
+            <h2>Gráfico de Frequência</h2>
+            <div class="frequencia_dados"></div>
+        </div>
+    </div>
+
+
 
     <script src="dice-roller.js"></script>
 </body>
